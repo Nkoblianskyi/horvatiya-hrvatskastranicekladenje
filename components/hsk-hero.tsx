@@ -1,5 +1,5 @@
 "use client"
-
+import Image from "next/image"
 import { CheckCircle } from "lucide-react"
 
 export function HskHero() {
@@ -24,7 +24,7 @@ export function HskHero() {
             </div>
 
             <div className="flex items-center gap-2">
-              <CheckCircle className="w-5 h-5 text-[var(--sport-green)]" />
+              <Image src="/flag.png" width={20} height={20} alt="flag" />
               <span className="text-sm font-medium">Licencirane Platforme</span>
             </div>
 
