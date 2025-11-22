@@ -42,12 +42,6 @@ export function HskHeader() {
             >
               Odgovorno Klađenje
             </Link>
-            <Link
-              href="/faq"
-              className="text-[var(--sport-grey)] hover:text-[var(--sport-blue)] font-medium transition-colors"
-            >
-              Pitanja
-            </Link>
           </nav>
 
           {/* Mobile Menu Button */}

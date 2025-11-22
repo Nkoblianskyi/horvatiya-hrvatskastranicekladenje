@@ -45,11 +45,6 @@ export function HskFooter() {
                   Odgovorno Klađenje
                 </Link>
               </li>
-              <li>
-                <Link href="/#faq" className="hover:text-white transition-colors">
-                  FAQ
-                </Link>
-              </li>
             </ul>
           </div>
 
