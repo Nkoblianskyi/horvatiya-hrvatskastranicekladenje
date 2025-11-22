@@ -25,12 +25,6 @@ export function HskHeader() {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
             <Link
-              href="/ratings"
-              className="text-[var(--sport-grey)] hover:text-[var(--sport-blue)] font-medium transition-colors"
-            >
-              Ocjene
-            </Link>
-            <Link
               href="/about"
               className="text-[var(--sport-grey)] hover:text-[var(--sport-blue)] font-medium transition-colors"
             >
@@ -58,13 +52,6 @@ export function HskHeader() {
           <nav className="md:hidden py-4 border-t border-[var(--sport-light-grey)]">
             <div className="flex flex-col gap-4">
               <Link
-                href="/ratings"
-                className="text-[var(--sport-grey)] hover:text-[var(--sport-blue)] font-medium"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Ocjene
-              </Link>
-              <Link
                 href="/about"
                 className="text-[var(--sport-grey)] hover:text-[var(--sport-blue)] font-medium"
                 onClick={() => setIsMenuOpen(false)}
@@ -77,13 +64,6 @@ export function HskHeader() {
                 onClick={() => setIsMenuOpen(false)}
               >
                 Odgovorno Klađenje
-              </Link>
-              <Link
-                href="/faq"
-                className="text-[var(--sport-grey)] hover:text-[var(--sport-blue)] font-medium"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Pitanja
               </Link>
             </div>
           </nav>
