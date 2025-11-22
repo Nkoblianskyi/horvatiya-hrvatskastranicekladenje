@@ -31,7 +31,20 @@ export const bettingSitesHR: BettingSite[] = [
     terms: "18+ • Sigurna platforma • Licencirano • Odgovorno klađenje",
     isPopular: true,
   },
-
+  {
+    id: 2,
+    name: "PSK",
+    logo: "/psk.webp",
+    bonus: "Dvaput Je Dvaput 2x100€",
+    dopBonus: "",
+    url: "https://www.psk.hr/",
+    rating: 9.6,
+    stars: 5,
+    reviews: 2642,
+    badges: ["TREND"],
+    terms: "18+ • Odgovorno klađenje • Licencirano • Vrijede T&C",
+    isTrending: true,
+  },
   {
     id: 3,
     name: "Favbet",
